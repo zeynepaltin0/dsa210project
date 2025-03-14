@@ -15,7 +15,7 @@ I will be using two different datasets for this project:
  Contains suicide rates by country, year, age group, and gender, along with socio-economic data like GDP per capita and HDI.  
  Source: https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016
 
-**3. World Happiness Report**
+**3. World Happiness Report**  
     Provides happiness scores and related factors (e.g., social support, freedom, corruption) by country and year.  
     Source: https://www.kaggle.com/datasets/unsdsn/world-happiness?select=2019.csv  
 
