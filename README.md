@@ -33,7 +33,7 @@ I will be using two different datasets for this project:
 
 **Statistical Analysis And Machine Learning:**
    
-+ Statistical and predictive machine learning methods will be applied.
++ Statistical models and predictive machine learning methods will be applied.
 
 
 
