@@ -35,6 +35,46 @@ I will be using two different datasets for this project:
    
 + Statistical models and predictive machine learning methods will be applied.
 
+# Report
+## Introduction
+
+This report investigates that whether the countries with higher happiness scores tend to have lower suicide rates, even after controlling for economic and demographic variables (between year 2015-2016). By integrating data from global suicide statistics and world happiness reports, we aim to uncover potential patterns and associations between societal well-being and suicide prevalence. The findings could offer valuable insights for policymakers, mental health professionals etc.
+
+## Hypothesis
+Null Hypothesis (H₀): There is no significant relationship between happiness scores and suicide rates after controlling for economic and demographic variables.
+
+Alternative Hypothesis (H₁): There is a significant relationship between happiness scores and suicide rates after controlling for economic and demographic variables.
+
+## Methods 
+**Data Collection**
+I got both of my datasets from kaggle.
+
+**Datasets**
+1) Suicide Rates Overview 1985 to 2016 , which inlcudes: country, year, sex, age group, count of suicides, population, suicide rate, country-year composite key, HDI for year, gdp_for_year, gdp_per_capita, generation (based on age grouping average).
+2) World Happiness Report (I used only years 2015 and 2016), which includes:
+
+   For 2015: Country, Region, Happiness Rank, Happiness Score, Standard Error, Economy (GDP per Capita), Family, Health (Life Expectancy), Freedom, Trust (Government Corruption), Generosity, Dystopia Residual.
+
+   For 2016: Country, Region,Happiness Rank, Happiness Score, Lower Confidence Interval, Upper Confidence Interval, Economy (GDP per Capita), Family, Health (Life Expectancy), Freedom, Trust (Government Corruption), Generosity, Dystopia Residual.
+
+**Data Preprocessing**
++ Checked the data for missing values and duplicates for all datasets.
++ Deleted unncessesary columns.
++ Merged all datasets into one by year and countries.
++ Deleted unmatched rows after merging.
++ Converted the data into the  appropriate format.
+
+**Visualization Techniques**
++ Univariate Analysis:
+  + Histogram for suicide rate per 100k frequency distribution.
+  + Histogram for happiness scores frequency distribution.
+
++ Bivariate Analysis:
+  + Barplot of Average Suicide Rate by Country Ordered by Happiness Score
+  + Scatterplot for happiness score versus suicide rate per 100k
+  + 
+
+
 
 
 
