@@ -72,7 +72,17 @@ I got both of my datasets from kaggle.
 + Bivariate Analysis:
   + Barplot of Average Suicide Rate by Country Ordered by Happiness Score
   + Scatterplot for happiness score versus suicide rate per 100k
-  + 
+  + Boxplot of suicide rate per 100k differentiated by sex
+
+
++ Multivariate Analysis:
+  + Scatterplot for happiness score versus suicide rate per 100k colored by reigons
+  + Scatterplot for happiness score versus suicide rate per 100k differentiated by sex
+  + Heatmap of correlation matrix for key variables
+
+ **Machine Learning Models**
+ + Linear Regression
+  
 
 
 
