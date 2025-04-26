@@ -71,17 +71,59 @@ I got both of my datasets from kaggle.
 
 + Bivariate Analysis:
   + Barplot of Average Suicide Rate by Country Ordered by Happiness Score
-  + Scatterplot for happiness score versus suicide rate per 100k
+  + Scatterplot for happiness score versus suicide rate (per 100k)
   + Boxplot of suicide rate per 100k differentiated by sex
 
 
 + Multivariate Analysis:
-  + Scatterplot for happiness score versus suicide rate per 100k colored by reigons
-  + Scatterplot for happiness score versus suicide rate per 100k differentiated by sex
+  + Scatterplot for happiness score versus suicide rate (per 100k) colored by reigons
+  + Scatterplot for happiness score versus suicide rate (per 100k) differentiated by sex
   + Heatmap of correlation matrix for key variables
 
  **Machine Learning Models**
  + Linear Regression
+
+## Results of the Analysis
+  + Univariate Analysis
+     + **Distribution of suicide rates (per 100k):**
+       + Most countries have relatively low suicide rates, but a few show extremely high rates, making the distribution heavily skewed to the right.
+
+     + **Distribution of happiness scores:**
+       + The happiness scores are quite evenly distributed with mild clustering around scores of 5.7 and 7.0, no extreme outliers, and no strong skew. It can be said that happiness is moderately high overall, but not perfectly uniform.
+
+   + Bivariate Analysis
+     + **Average uicide rate by country ranked by happiness score**
+       + In general, lower happiness scores are associated with higher suicide rates, but there are important exceptions where countries break this pattern. This suggests that while happiness and suicide are correlated, they are not perfectly inversely related — other factors likely play a major role too.
+
+     + **Hapiness score and suicide rate per 100k**
+       + The plot shows a very weak negative relationship between happiness scores and suicide rates, meaning happier countries tend to have slightly lower suicide rates, but the connection is not strong. There is significant variability, suggesting other factors also heavily influence suicide rates.
+
+      + **Suicide rate per 100k differentiated by sex**
+        + Suicide rates are notably higher among males than females, with males also showing a wider range and more extreme outliers. This highlights a significant gender disparity in suicide rates.
+
+   +  Multivariate Analysis
+      + **Happiness score versus suicide rate (per 100k) by reigons**
+        + The relationship between happiness and suicide rate varies widely by region, with Central and Eastern Europe showing notably higher suicide rates regardless of happiness, while other regions like Latin America and Sub-Saharan Africa maintain generally lower rates across all happiness levels. Across all regions, the data highlights that happiness scores alone are insufficient to predict suicide rates.
+
+      + **Happiness score versus suicide rate (per 100k) differentiated by sex**
+        + Gender matters a lot when examining suicide rates. Happiness score alone is not a strong predictor, especially for females. For males, higher happiness scores are slightly associated with lower suicide rates, but the relationship is very weak.
+
+      + **Correlation matrix for key variables**
+        + There is no strong simple correlation between suicide rate and happiness, family, health, or wealth. However, happiness itself is strongly positively related to family, health, and income. Thus, while happier countries are generally richer and healthier, 
+        these factors alone don't seem to directly explain suicide rates in a simple, straight-line relationship.
+
+   + Machine Learning Results
+      + **Linear regression predicting Suicides/100k pop based on Happiness Score**
+         + Happiness Score by itself does not significantly predict suicide rates. The model fit is extremely poor, and the relationship is tiny and not statistically significant.
+
+      + **Multivariate Regression of suicides/100k pop based on happiness Score, GDP per capita, family, and health (life xxpectancy)**
+         + Controlling for GDP, family, and health, happiness score tends to be negatively associated with suicide rate, but the relationship is only marginally significant.
+
+
+
+
+ 
+
   
 
 
