@@ -66,7 +66,7 @@ I got both of my datasets from kaggle.
 
 **Visualization Techniques**
 + Univariate Analysis:
-  + Histogram for suicide rate per 100k frequency distribution.
+  + Histogram for suicide rate (per 100k) frequency distribution.
   + Histogram for happiness scores frequency distribution.
 
 + Bivariate Analysis:
@@ -95,7 +95,7 @@ I got both of my datasets from kaggle.
      + **Average uicide rate by country ranked by happiness score**
        + In general, lower happiness scores are associated with higher suicide rates, but there are important exceptions where countries break this pattern. This suggests that while happiness and suicide are correlated, they are not perfectly inversely related — other factors likely play a major role too.
 
-     + **Hapiness score and suicide rate per 100k**
+     + **Hapiness score and suicide rate (per 100k)**
        + The plot shows a very weak negative relationship between happiness scores and suicide rates, meaning happier countries tend to have slightly lower suicide rates, but the connection is not strong. There is significant variability, suggesting other factors also heavily influence suicide rates.
 
       + **Suicide rate per 100k differentiated by sex**
