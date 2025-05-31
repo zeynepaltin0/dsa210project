@@ -112,13 +112,6 @@ I got both of my datasets from kaggle.
         + There is no strong simple correlation between suicide rate and happiness, family, health, or wealth. However, happiness itself is strongly positively related to family, health, and income. Thus, while happier countries are generally richer and healthier, 
         these factors alone don't seem to directly explain suicide rates in a simple, straight-line relationship.
 
-   + Machine Learning Results
-      + **Linear regression predicting Suicides/100k pop based on Happiness Score**
-         + Happiness Score by itself does not significantly predict suicide rates. The model fit is extremely poor, and the relationship is tiny and not statistically significant.
-
-      + **Multivariate Regression of suicides/100k pop based on happiness Score, GDP per capita, family, and health (life xxpectancy)**
-         + Controlling for GDP, family, and health, happiness score tends to be negatively associated with suicide rate, but the relationship is only marginally significant.
-
 ## Findings
 
 + **Suicide Rates Distribution:**
