@@ -139,15 +139,6 @@ I got both of my datasets from kaggle.
 + **Happiness and Other Factors:**
   + Happiness is strongly correlated with family support, health, and income, but these factors do not directly explain suicide rates.
 
-+ **Machine Learning (Linear Regression):**
-  + Happiness score alone is a very poor predictor of suicide rates.
-
-+ **Machine Learning (Multivariate Regression):**
-  + Controlling for GDP, family, and health, happiness has a slight negative association with suicide rates, but the relationship is only marginally significant.
-
-+ **Hypothesis Test Result:**
-  + Fail to reject the null hypothesis —> no strong evidence that happiness scores significantly predict suicide rates after controlling for economic and demographic variables.
-
 ## Limitations
 This data analysis is based on cross-sectional data, which limits the ability to infer causality. While happiness, GDP, family support, and health were important factors, other unmeasured variables such as cultural or societal influences may also affect suicide rates. Also regional differences highlight that results may not be universally generalizable.
 
