@@ -64,6 +64,8 @@ I got both of my datasets from kaggle.
 + Deleted unmatched rows after merging.
 + Converted the data into the  appropriate format.
 
++ *This data set went through a second preprocessing for machine learning methods later on*
+
 **Visualization Techniques**
 + Univariate Analysis:
   + Histogram for suicide rate (per 100k) frequency distribution.
