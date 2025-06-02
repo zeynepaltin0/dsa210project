@@ -82,6 +82,7 @@ I got both of my datasets from kaggle.
 
  **Machine Learning Models**
  + Linear Regression
+ + Random Forest
 
 ## Results of the Analysis
   + Univariate Analysis
@@ -111,6 +112,23 @@ I got both of my datasets from kaggle.
       + **Correlation matrix for key variables**
         + There is no strong simple correlation between suicide rate and happiness, family, health, or wealth. However, happiness itself is strongly positively related to family, health, and income. Thus, while happier countries are generally richer and healthier, 
         these factors alone don't seem to directly explain suicide rates in a simple, straight-line relationship.
+ 
+   +  Linear Regression
+      + **Linear Regression Evaluation:**
+        + R² Score : 0.6081 
+        + RMSE (Error) : 10.7041 
+        + MAE (Abs Error): 6.6224
+
+  + Random Forest
+    + **Random Forest Evaluation:**
+      + R² Score : 0.8417 
+      + RMSE (Error) : 6.8031 
+      + MAE (Abs Error): 3.8818
+
+
+
+     
+
 
 ## Findings
 
@@ -131,6 +149,25 @@ I got both of my datasets from kaggle.
 
 + **Happiness and Other Factors:**
   + Happiness is strongly correlated with family support, health, and income, but these factors do not directly explain suicide rates.
+
++ **Linear Regression**
+  + This model explains 60.8% of the variation in suicide rates based on the features.
+  + This model reveals that happiness-related features still have a significant impact on suicide rates after controlling for sex, age, region, generation, population, and gdp. 
+
++ **Random Forest**
+  + Model explains 84.2% of the variation in suicide rates.
+  + Average error is about 6.8 suicides per 100k (much lower than linear regression).
+  + On average, predictions are only 3.88 off (very accurate).
+  + This model also shows that gender, age, and region are the most influential predictors of suicide rates.
+
++ **In conclusion the random forest model fits my data significantly better than linear regression.**
+
++ **Hypothesis Testing (OLS Regression Model)**
+  + Freedom had a negative coefficient (–1.61) with a p-value of 0.071, indicating a borderline effect.
+  + Family had a positive coefficient (+2.43) and was statistically significant (p < 0.001).
+  + Economy showed a positive effect (+1.92) but was not statistically significant (p = 0.276).
+
+ + **These findings support the rejection of the null hypothesis for at least one happiness-related variable, meaning happiness factors do have a meaningful and statistically supported impact on suicide rates, even after accounting for other influences.**
 
 ## Limitations
 This data analysis is based on cross-sectional data, which limits the ability to infer causality. While happiness, GDP, family support, and health were important factors, other unmeasured variables such as cultural or societal influences may also affect suicide rates. Also regional differences highlight that results may not be universally generalizable.
